@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #071a30 !important;
+  font-style: Montserrat;
+  overflow-x: hidden;
+  color: white !important;
+}
+
+a {
+  color: white !important;
+}
+
+a:hover {
+  color: #ffe164 !important;
+  border-bottom: 1px solid #ffe164;
+}
+
+button {
+  color: #071a30 !important;
+  background-color: #ffe164 !important;
+  border: 1px solid #ffe164 !important;
+}
+
+button:hover {
+  color: #ffe164 !important;
+  background-color: #071a30 !important;
+  border: 1px solid #ffe164 !important;
+}
+
+.textColor {
+  color: #ffe164 !important;
+}
+
+.cardImageHeight {
+  height: 170px !important;
+}
+
+.cardHeight {
+  height: 450px !important;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffe164 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .fontsmallSize {
+    font-size: 0.6rem !important;
+  }
+
+  .content p {
+    font-size: 0.4rem !important;
+  }
+
+  .content h3 {
+    font-size: 0.6rem !important;
+  }
+}
+
+
